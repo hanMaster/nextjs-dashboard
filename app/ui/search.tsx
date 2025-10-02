@@ -17,7 +17,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
                 clearTimeout(timeout);
             }
         };
-    }, []);
+    });
 
     function handleSearch(term: string) {
         if (timeout!) {
